@@ -13,13 +13,13 @@ body {
 }
 
 .header {
-   background-color: rgb(251, 251, 94);
+   background-color: pink;
    padding: 20px;
    text-align: center;
 }
 
 .footer {
-   background-color: rgb(188, 180, 205);
+   background-color: pink;
    padding: 20px;
    text-align: center;
 }
@@ -31,12 +31,15 @@ body {
 .page__container {
    max-width: 800px;
    margin: 0 auto;
+
+
 }
 
 /*Приклади Flex*/
 
 .block {
    border: 1px grey solid;
+
 
 }
 
@@ -45,7 +48,7 @@ body {
    font-size: 26px;
    font-weight: 700;
    color: rgb(0, 0, 0);
-   background-color: rgb(160, 210, 237);
+   background-color: green;
 }
 
 .block__items {
@@ -56,55 +59,62 @@ body {
 
 
 
+
 }
 
 .block__item {
+
    color: white;
    font-weight: 700;
    font-size: 26px;
    text-align: center;
    padding: 20px;
    border: 3px grey solid;
-   background-color: rgb(0, 0, 0);
+   background-color: rgb(233, 241, 79);
 }
 
 .block__items--between {
    background-color: rgb(255, 255, 255);
    justify-content: space-between;
    flex-wrap: wrap;
+   background-color: blue;
 }
 
 .block__items--evenly {
-   background-color: rgb(255, 255, 255);
+   background-color: blue;
    justify-content: space-evenly;
+
 }
 
 .block__items--around {
-   background-color: rgb(255, 255, 255);
+
    justify-content: space-around;
    flex-wrap: wrap-reverse;
+   background-color: blue
 }
 
 .block__items--end {
    height: 200px;
-   background-color: rgb(255, 255, 255);
+
    justify-content: end;
    align-items: flex-end;
    flex-direction: row-reverse;
+   background-color: blue
 }
 
 .block__items--start {
-   background-color: rgb(255, 255, 255);
+
    justify-content: start;
    align-items: center;
    height: 200px;
+   background-color: blue
 }
 
 .block__items--align {
    align-items: center;
    justify-content: space-between;
    flex-direction: column;
-   background-color: rgb(255, 255, 255);
+   background-color: blue
 }
 
 
