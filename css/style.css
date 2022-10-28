@@ -229,3 +229,40 @@ body {
    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
 
 }
+
+
+/*
+++++*/
+.article {
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.article__item {}
+
+.item-article {
+   display: flex;
+   gap: 20px;
+   background-color: #1fc075;
+   padding: 15px;
+}
+
+
+.item-article:nth-child(even) {
+   flex-direction: row-reverse
+}
+
+.item-article__image {
+   flex: 0 0 100px;
+}
+
+.item-article__image img {
+   max-width: 100%;
+}
+
+.item-article__text {
+   color: blue;
+   line-height: 120%;
+}
